@@ -1,0 +1,161 @@
+:root{
+    --primary-color: #6C63FF;
+    --secondary-color: #F5F2FE;
+    --box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.intro .greet{
+    padding-top: 25px;
+    font-size: 48px;
+}
+
+.intro .title{
+    padding-top: 25px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.intro h3{
+    padding-top: 25px;
+    font-size: 23px;
+    color: #4C4C4C;
+    font-weight: 700;
+}
+
+
+.controls{
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.controls a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.controls .contact{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: white;
+    box-shadow: var(--box-shadow);
+    transition: all 200ms ease-in-out;
+}
+
+.controls .contact:hover{
+    background-color: #5d58b4;
+}
+
+.controls .about{
+    color: #6C63FF;
+    border: 1px solid var(--primary-color);
+    transition: all 200ms ease-in-out;
+}
+
+.controls .about:hover{
+    background-color: #6C63FF;
+    color: white;
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
+
+.launch{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: white;
+    box-shadow: var(--box-shadow);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 200ms ease-in-out;
+}
+
+.launch:hover{
+    background-color: #5d58b4;
+}
+
+.container h2{
+    font-size: 3rem;
+}
+
+.container p{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+.about-intro{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.about-intro a{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.about-intro h1{
+    padding-top: 25px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.about-intro h3{
+    padding-top: 25px;
+    font-size: 23px;
+    color: #4C4C4C;
+    font-weight: 700;
+}
+
+.about-para{
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+.about-para p{
+    margin: 10px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    width: 350px;
+}
+
+.para{
+    margin: 30px 0;
+    font-size: 1.1rem;
+}
+
+.contact-info{
+    margin: 50px;
+    text-align: center;
+}
+
+.contact-info h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contact-info a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.contact-info a:hover{
+    text-decoration: underline;
+}
