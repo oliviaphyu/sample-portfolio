@@ -159,3 +159,39 @@
 .contact-info a:hover{
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+    .intro .greet{
+        font-size: 38px;
+    }
+    .intro .title{
+        font-size: 50px;
+    }
+    .intro h3{
+        font-size: 18px;
+    }
+    .about-intro h1{
+        font-size: 50px;
+    }
+    .about-intro h3{
+        font-size: 18px;
+    }
+    .contact-info h2{
+        font-size: 38px;
+    }
+    .contact-info a{
+        font-size: 25px;
+    }
+    .container h2{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .container p{
+        text-align: center;
+    }
+    .launch{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
