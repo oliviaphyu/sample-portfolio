@@ -16,6 +16,7 @@
 }
 
 .intro .greet{
+    font-family: var(--side-font-family);
     padding-top: 25px;
     font-size: 48px;
 }
